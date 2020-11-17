@@ -15,7 +15,7 @@ const initial = {
 };
 // action.payload can be used as an index.
 function reducer(state, action) {
-  if (action.type === "DROP_TILE") {
+  if (action.type === "DROP_TILE" && state.board[action.payload].length <= 5) {
     const tile = state.current;
     const col = state.board[action.payload].concat(tile); // Our new Col
     console.log(state.board); // Checking if cells are being pushed into
