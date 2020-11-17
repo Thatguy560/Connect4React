@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  /* align-items: center; */
+  /* background: white; */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: white;
+  padding: 25px;
+  width: 100%;
+}
+
+.cell {
+  align-items: center;
+  display: flex;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* .div.cell p {
+  color: white;
+} */
