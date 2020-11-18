@@ -1,7 +1,7 @@
 // When someone clicks on a column
-export function dropTile(col) {
+export function dropCounter(col) {
   return {
-    type: "DROP_TILE",
+    type: "DROP_COUNTER",
     payload: col,
   };
 }

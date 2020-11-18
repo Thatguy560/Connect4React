@@ -1,10 +1,19 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { dropTile } from "./actions";
+import { dropCounter } from "./actions";
 
 class GridCell extends Component {
   handleClick() {
-    this.props.sendTileDrop(this.props.x);
+    this.props.sendCounterDrop(this.props.x);
+    // console.log("TEST");
+  }
+
+  resetGame() {
+    console.log(this.props.board);
+    this.props.board = [];
+    // this.props.board = ""; // reset board
+    // this.props.board.slice()
+    // [[], [], [], [], [], [], [],]
   }
 
   render() {
@@ -12,11 +21,14 @@ class GridCell extends Component {
     const x = this.props.x;
     const y = this.props.y;
     let classes = "cell";
+    let str;
     if (board[x][y] !== undefined) {
       if (board[x][y] === "red") {
         classes += " p2";
+        // str = <h1>Red's turn</h1>;
       } else {
         classes += " p1";
+        // str = <h1>Yellow's turn</h1>;
       }
     }
 
@@ -24,7 +36,13 @@ class GridCell extends Component {
       <div className={classes} onClick={() => this.handleClick()}>
         <p>
           {this.props.x}, {this.props.y}
+          {str}
         </p>
+        <div className="test">
+          {/* <button type="button" className="reset" onClick={() => this.resetGame}>
+            RESET
+          </button> */}
+        </div>
       </div>
     );
   }
@@ -38,7 +56,7 @@ const stateToProps = (state) => {
 
 const dispatchToProps = (dispatch) => {
   return {
-    sendTileDrop: (col) => dispatch(dropTile(col)),
+    sendCounterDrop: (col) => dispatch(dropCounter(col)),
   };
 };
 
