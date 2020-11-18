@@ -1,12 +1,40 @@
 .App {
+  background-color: #4370f1;
+  border: 2px solid black;
+  width: 675px;
+  height: 575px;
+  border-radius: 2%;
   text-align: center;
-  /* border: 2px solid black;
-  width: 600px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 95%;
+}
+
+.cell {
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  display: inline-block;
+  padding: 25px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: monospace;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 p {
   color: transparent;
-  /* color: black; */
 }
 
 h1 {
@@ -17,40 +45,6 @@ h1.App-title {
   color: transparent;
 }
 
-h1.p1 {
-  color: yellow;
-}
-
-h1.p2 {
-  color: red;
-}
-
-body {
-  /* align-items: center; */
-  /* background: white; */
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: column;
-  /* font-family: sans-serif; */
-  padding: 25px;
-  width: 95%;
-  background-color: #4370f1;
-}
-
-.cell {
-  align-items: center;
-  display: flex;
-  border: 2px solid black;
-  background-color: white;
-  display: inline-block;
-  padding: 25px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-family: monospace;
-}
-
 .cell.p1 {
   background-color: yellow;
 }
@@ -59,13 +53,15 @@ body {
   background-color: red;
 }
 
-.footer {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 700px;
+h1.p1 {
+  color: yellow;
 }
 
+h1.p2 {
+  color: red;
+}
+
+/* For reset button - To reset game */
 .reset {
   background-color: #4370f1;
   border-radius: 5px;
