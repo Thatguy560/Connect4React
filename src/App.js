@@ -19,13 +19,17 @@ class App extends Component {
         </div>
       );
     }
+
+    if ("") {
+    }
+
     return (
       <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          {/* <h1 className="App-title">Welcome to Connect 4</h1> */}
-        </header>
-        {cells}
+        {/* <header className="App-header">
+          <h1 className="App-title">Welcome to Connect 4</h1>
+        </header> */}
+        {cells} {/* Contains Grid */}
+        {/* <h1>Red's go</h1> */}
       </div>
     );
   }

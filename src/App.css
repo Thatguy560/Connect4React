@@ -14,8 +14,8 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 25px;
-  width: 95%;
+  padding: 35px;
+  /* width: 100%; */
 }
 
 .cell {

@@ -5,7 +5,7 @@ import { dropCounter } from "./actions";
 class GridCell extends Component {
   handleClick() {
     this.props.sendCounterDrop(this.props.x);
-    // console.log("TEST");
+    console.log(this.props.board);
   }
 
   resetGame() {
@@ -38,7 +38,7 @@ class GridCell extends Component {
           {this.props.x}, {this.props.y}
           {str}
         </p>
-        <div className="test">
+        <div className="Reset-button">
           {/* <button type="button" className="reset" onClick={() => this.resetGame}>
             RESET
           </button> */}
