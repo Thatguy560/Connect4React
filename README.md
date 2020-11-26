@@ -4,9 +4,9 @@
 
 A re-creation of the popular board game connect Four built using React. (Game works but some additional features are still WIP)
 
-<!-- # Visit the deployed app
+# Visit the deployed app
 
-You can find the deployed app via the following link: https://Thatguy560.github.io/CalculatorReact -->
+You can find the deployed app via the following link: https://thatguy560.github.io/Connect4React/
 
 # Installation
 
