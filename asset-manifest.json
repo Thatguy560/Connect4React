@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Connect4React/static/css/main.d05c98ab.chunk.css",
+    "main.js": "/Connect4React/static/js/main.243b4618.chunk.js",
+    "main.js.map": "/Connect4React/static/js/main.243b4618.chunk.js.map",
+    "runtime-main.js": "/Connect4React/static/js/runtime-main.3608b691.js",
+    "runtime-main.js.map": "/Connect4React/static/js/runtime-main.3608b691.js.map",
+    "static/js/2.6c5b1ee6.chunk.js": "/Connect4React/static/js/2.6c5b1ee6.chunk.js",
+    "static/js/2.6c5b1ee6.chunk.js.map": "/Connect4React/static/js/2.6c5b1ee6.chunk.js.map",
+    "static/js/3.0e6a2bfa.chunk.js": "/Connect4React/static/js/3.0e6a2bfa.chunk.js",
+    "static/js/3.0e6a2bfa.chunk.js.map": "/Connect4React/static/js/3.0e6a2bfa.chunk.js.map",
+    "index.html": "/Connect4React/index.html",
+    "static/css/main.d05c98ab.chunk.css.map": "/Connect4React/static/css/main.d05c98ab.chunk.css.map",
+    "static/js/2.6c5b1ee6.chunk.js.LICENSE.txt": "/Connect4React/static/js/2.6c5b1ee6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3608b691.js",
+    "static/js/2.6c5b1ee6.chunk.js",
+    "static/css/main.d05c98ab.chunk.css",
+    "static/js/main.243b4618.chunk.js"
+  ]
+}
