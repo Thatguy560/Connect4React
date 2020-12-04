@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 35px;
-  /* width: 100%; */
 }
 
 .cell {
@@ -41,9 +40,6 @@ h1 {
   color: black;
 }
 
-h1.App-title {
-  color: transparent;
-}
 
 .cell.p1 {
   background-color: yellow;
@@ -61,16 +57,16 @@ h1.p2 {
   color: red;
 }
 
-/* For reset button - To reset game */
 .reset {
   background-color: #4370f1;
   border-radius: 5px;
-  border: none;
   color: white;
   cursor: pointer;
-  display: block;
   font-size: 16px;
   font-weight: bold;
   padding: 15px 30px;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
 }
+

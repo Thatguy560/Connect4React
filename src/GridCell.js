@@ -8,14 +8,6 @@ class GridCell extends Component {
     console.log(this.props.board);
   }
 
-  resetGame() {
-    console.log(this.props.board);
-    this.props.board = [];
-    // this.props.board = ""; // reset board
-    // this.props.board.slice()
-    // [[], [], [], [], [], [], [],]
-  }
-
   render() {
     const board = this.props.board;
     const x = this.props.x;
@@ -38,11 +30,6 @@ class GridCell extends Component {
           {this.props.x}, {this.props.y}
           {str}
         </p>
-        <div className="Reset-button">
-          {/* <button type="button" className="reset" onClick={() => this.resetGame}>
-            RESET
-          </button> */}
-        </div>
       </div>
     );
   }

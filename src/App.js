@@ -20,16 +20,23 @@ class App extends Component {
       );
     }
 
-    if ("") {
+    function refreshPage() {
+      window.location.reload(false);
     }
 
     return (
       <div className="App">
-        {/* <header className="App-header">
-          <h1 className="App-title">Welcome to Connect 4</h1>
-        </header> */}
         {cells} {/* Contains Grid */}
-        {/* <h1>Red's go</h1> */}
+        <div>
+          {/* <div>
+            <h1>test</h1>
+          </div> */}
+          <h1>
+            <button className="reset" onClick={refreshPage}>
+              Reset board
+            </button>
+          </h1>
+        </div>
       </div>
     );
   }

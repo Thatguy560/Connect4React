@@ -19,7 +19,6 @@ function reducer(state, action) {
     action.type === "DROP_COUNTER" &&
     state.board[action.payload].length <= 5
   ) {
-    // let len = state.board;
     let arr = state.board[action.payload]; // iterate through this
     const counter = state.current;
     const col = state.board[action.payload].concat(counter); // Our new Col
