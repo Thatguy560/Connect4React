@@ -24,6 +24,10 @@ class GridCell extends Component {
       }
     }
 
+    if (board[x][y] === "red") {
+      console.log("RED");
+    }
+
     return (
       <div className={classes} onClick={() => this.handleClick()}>
         <p>

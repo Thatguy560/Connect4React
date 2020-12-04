@@ -32,8 +32,8 @@ class App extends Component {
             <h1>test</h1>
           </div> */}
           <h1>
-            <button className="reset" onClick={refreshPage}>
-              Reset board
+            <button type="button" className="reset" onClick={refreshPage}>
+              <span>Reset board</span>
             </button>
           </h1>
         </div>
